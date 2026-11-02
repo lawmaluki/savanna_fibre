@@ -2,6 +2,14 @@
 
 A redesign of the Savanna Fibre customer app in Flutter. Frontend only: all data is mocked, so every flow (sign in, renew, top up, add-ons, tickets) works end to end without a backend.
 
+## Original Savanna Fibre screens
+
+These screenshots show the original app used as the reference for this redesign. Select an image to view it at full size.
+
+| Home | Renew | Tickets | Profile |
+|---|---|---|---|
+| [<img src="docs/screenshots/original/home.jpeg" alt="Original Savanna Fibre home screen" width="200">](docs/screenshots/original/home.jpeg) | [<img src="docs/screenshots/original/renew.jpeg" alt="Original Savanna Fibre renewal screen" width="200">](docs/screenshots/original/renew.jpeg) | [<img src="docs/screenshots/original/ticket.jpeg" alt="Original Savanna Fibre ticket management screen" width="200">](docs/screenshots/original/ticket.jpeg) | [<img src="docs/screenshots/original/profile.jpeg" alt="Original Savanna Fibre profile screen" width="200">](docs/screenshots/original/profile.jpeg) |
+
 ## Run it
 
 This folder holds the Dart code but no platform folders yet. From inside it:

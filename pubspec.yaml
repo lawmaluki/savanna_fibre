@@ -1,0 +1,33 @@
+name: savanna_fibre
+description: Savanna Fibre customer app. Frontend with mock data.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+  flutter: '>=3.32.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.0.0
+  go_router: ^18.1.2
+  google_fonts: ^9.0.0
+  flutter_animate: ^4.5.2
+  intl: ^0.20.2
+  phosphor_flutter: ^2.1.0
+  smooth_page_indicator: ^3.0.0
+
+# phosphor_flutter 2.1.0 (latest) extends IconData, which is final since Flutter 3.47.
+# Use the locally patched copy until upstream publishes a fix.
+dependency_overrides:
+  phosphor_flutter:
+    path: packages/phosphor_flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

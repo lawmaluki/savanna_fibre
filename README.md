@@ -1,10 +1,7 @@
 # Savanna Fibre app
 
 A redesign of the Savanna Fibre customer app in Flutter. Frontend only: all data is mocked, so every flow (sign in, renew, top up, add-ons, tickets) works end to end without a backend.## Redesigned screens
-
-<img width="1334" height="967" alt="Screenshot 2026-11-02 205706" src="https://github.com/user-attachments/assets/fc6fa912-c440-4cf2-824a-b0258366f0b1" />
-<img width="1313" height="983" alt="Screenshot 2026-11-02 205518" src="https://github.com/user-attachments/assets/a788816c-2b79-4abf-8ca4-721f5e51a4db" />
-<img width="1309" height="1075" alt="Screenshot 2026-10-30 202859" src="https://github.com/user-attachments/assets/05bfd35a-a719-4c58-be2e-32972958c903" />
+https://github.com/user-attachments/assets/b343cc63-c7c2-4215-9059-8f77d7c59990
 
 Screenshots captured from the Flutter app running on Android with demo data. Select an image to view it at full size.
 
@@ -102,3 +99,7 @@ The controllers in `lib/state/` then need their `build()` methods switched from 
 - Tickets show a status and a timeline. "Raise and Close" became "Mark resolved", with a confirmation.
 - Help is reachable from Home, Support and Profile, not a centre tab.
 - Dark mode, larger touch targets and screen-reader labels throughout.
+
+<img width="1334" height="967" alt="Screenshot 2026-11-02 205706" src="https://github.com/user-attachments/assets/fc6fa912-c440-4cf2-824a-b0258366f0b1" />
+<img width="1313" height="983" alt="Screenshot 2026-11-02 205518" src="https://github.com/user-attachments/assets/a788816c-2b79-4abf-8ca4-721f5e51a4db" />
+<img width="1309" height="1075" alt="Screenshot 2026-10-30 202859" src="https://github.com/user-attachments/assets/05bfd35a-a719-4c58-be2e-32972958c903" />

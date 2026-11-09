@@ -1,6 +1,7 @@
 # Savanna Fibre app
 
 A redesign of the Savanna Fibre customer app in Flutter. Frontend only: all data is mocked, so every flow (sign in, renew, top up, add-ons, tickets) works end to end without a backend.## Redesigned screens
+
 https://github.com/user-attachments/assets/b343cc63-c7c2-4215-9059-8f77d7c59990
 
 Screenshots captured from the Flutter app running on Android with demo data. Select an image to view it at full size.
